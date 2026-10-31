@@ -1,3 +1,4 @@
+[package]
 name = "Huckel"
 version = "0.1.0"
 license = "license"
@@ -5,3 +6,6 @@ author = "Jane Doe"
 maintainer = "jane.doe@example.com"
 copyright = "Copyright 2026, Jane Doe"
 
+[build]
+link = ["lapack,blas"]
+link-dir = ["/opt/homebrew/opt/lapack/lib"]
